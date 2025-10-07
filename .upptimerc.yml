@@ -22,8 +22,6 @@ status-website:
   introTitle: "**HealthPathways System Status**"
   introMessage: Real-time monitoring of Streamliners and HealthPathways services.
   navbar:
-    - title: Status
-      href: /
     - title: Streamliners
       href: https://www.streamliners.com/
     - title: Hub
