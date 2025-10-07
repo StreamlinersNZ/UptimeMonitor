@@ -1,15 +1,18 @@
 owner: StreamlinersNZ 
-repo: UptimeMonitor 
+repo: UptimeMonitor
+branch: main 
 
 sites:
   - name: Streamliners
     url: https://www.streamliners.com/
     icon: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/streamliners-logo.svg
   - name: HealthPathways Hub
-    url: https://hub.healthpathways.com/
+    url: https://hub.healthpathwayscommunity.org/
     icon: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg
     followRedirects: true
-    maxRedirects: 5
+    maxRedirects: 10
+    timeout: 30000
+    retries: 3
 
 status-website:
   # Custom domain for HealthPathways status page
@@ -30,3 +33,6 @@ status-website:
 # Security: Issues are automatically created for downtime incidents
 # Only repository collaborators can comment on issues
 # See https://upptime.js.org/docs/configuration
+
+# Disable topics to avoid permission issues
+skipTopics: true
