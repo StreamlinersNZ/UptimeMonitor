@@ -8,6 +8,8 @@ sites:
   - name: HealthPathways Hub
     url: https://hub.healthpathways.com/
     icon: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg
+    followRedirects: true
+    maxRedirects: 5
 
 status-website:
   # Custom domain for HealthPathways status page
