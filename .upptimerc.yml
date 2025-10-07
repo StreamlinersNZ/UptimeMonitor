@@ -26,8 +26,8 @@ status-website:
       href: /
     - title: Streamliners
       href: https://www.streamliners.com/
-    - title: HealthPathways
-      href: https://www.streamliners.com/
+    - title: Hub
+      href: https://hub.healthpathwayscommunity.org/
 
 # Security: Issues are automatically created for downtime incidents
 # Only repository collaborators can comment on issues
