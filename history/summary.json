@@ -22,17 +22,19 @@
     "url": "https://hub.healthpathwayscommunity.org/",
     "icon": "https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg",
     "slug": "health-pathways-hub",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 530,
-    "timeDay": 530,
-    "timeWeek": 530,
-    "timeMonth": 530,
-    "timeYear": 530,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "98.91%",
+    "uptimeDay": "98.91%",
+    "uptimeWeek": "98.91%",
+    "uptimeMonth": "98.91%",
+    "uptimeYear": "98.91%",
+    "time": 545,
+    "timeDay": 545,
+    "timeWeek": 545,
+    "timeMonth": 545,
+    "timeYear": 545,
+    "dailyMinutesDown": {
+      "2025-10-07": 7
+    }
   }
 ]
