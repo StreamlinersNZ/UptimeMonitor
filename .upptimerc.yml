@@ -20,7 +20,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/streamliners-logo.svg
   name: HealthPathways System Status
   introTitle: "**HealthPathways System Status**"
-  introMessage: Real-time monitoring of Streamliners and HealthPathways services. This status page is powered by [Upptime](https://upptime.js.org).
+  introMessage: Real-time monitoring of Streamliners and HealthPathways services.
   navbar:
     - title: Status
       href: /
