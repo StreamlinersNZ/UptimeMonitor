@@ -1,17 +1,26 @@
 ---
-name: Maintenance Event
-about: Schedule a work window
-title: "[Scheduled Maintenance] Site down for Maintenance"
+name: Scheduled Maintenance
+about: Schedule a maintenance window (Authorized personnel only)
+title: "[Scheduled Maintenance]"
 labels: maintenance
-assignees: ''
+assignees: 'streamliners'
 
 ---
 
 <!--
-start: 2021-08-24T13:00:00.220Z
-end: 2021-08-24T14:00:00.220Z
-expectedDown: google, hacker-news
+⚠️ This template is for authorized Streamliners personnel only.
+Unauthorized issues will be closed and locked.
+
+start: YYYY-MM-DDTHH:MM:SS.SSSZ
+end: YYYY-MM-DDTHH:MM:SS.SSSZ
+expectedDown: streamliners
 -->
 
-**Additional context**
-Who/what/when/where/why is this maintenance happening
+**Maintenance Details**
+- **Duration**: [Start time] to [End time]
+- **Affected Services**: [List services]
+- **Reason**: [Brief explanation]
+- **Expected Impact**: [Describe expected downtime/degradation]
+
+**Additional Context**
+[Any additional information about the maintenance]

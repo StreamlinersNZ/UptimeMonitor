@@ -1,0 +1,16 @@
+# Streamliners System Status Monitor - Code Owners
+# These owners will be requested for review when someone opens a pull request.
+# Only authorized personnel can approve changes to this repository.
+
+# Default owners for everything in the repo
+* @StreamlinersNZ/engineering @StreamlinersNZ/product-operations
+
+# Configuration files require explicit approval
+/.upptimerc.yml @StreamlinersNZ/engineering @StreamlinersNZ/product-operations
+/.github/** @StreamlinersNZ/engineering @StreamlinersNZ/product-operations
+/LICENSE @StreamlinersNZ/engineering
+/README.md @StreamlinersNZ/engineering @StreamlinersNZ/product-operations
+
+# Workflow files are critical - require approval from Engineering
+/.github/workflows/** @StreamlinersNZ/engineering
+
