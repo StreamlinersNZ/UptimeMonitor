@@ -10,9 +10,8 @@ sites:
     url: https://hub.healthpathwayscommunity.org/
     icon: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg
     followRedirects: true
-    maxRedirects: 10
     timeout: 30000
-    retries: 3
+    maxRedirects: 5
 
 status-website:
   # Custom domain for HealthPathways status page
