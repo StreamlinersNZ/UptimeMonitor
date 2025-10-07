@@ -1,0 +1,43 @@
+# Streamliners Uptime Monitor - Git Ignore
+
+# Node modules (if any local development)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (never commit secrets!)
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Local development
+.cache/
+dist/
+build/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Keep generated files that Upptime creates
+# (These should be committed as part of the monitoring data)
+# !history/
+# !api/
+# !graphs/
+
