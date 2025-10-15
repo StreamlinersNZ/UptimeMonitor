@@ -34,10 +34,15 @@ status-website:
     - rel: stylesheet
       href: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/streamliners-theme.css
   css: |
-    /* Test inline CSS to verify theme loading */
-    body { background-color: #F8F5F0 !important; }
+    /* Streamliners Brand Theme - Inline CSS */
+    body { background-color: #421B30 !important; color: #F8F5F0 !important; }
     .navbar { background-color: #421B30 !important; }
-    .navbar-brand, .navbar-nav .nav-link { color: white !important; }
+    .navbar-brand, .navbar-nav .nav-link { color: #F8F5F0 !important; }
+    .card { background-color: #F8F5F0 !important; border: 1px solid #E6E0DB !important; }
+    .card-header { background-color: #E6E0DB !important; color: #141414 !important; }
+    .btn-primary { background-color: #421B30 !important; border-color: #421B30 !important; color: #F8F5F0 !important; }
+    a { color: #421B30 !important; }
+    .footer { background-color: #E6E0DB !important; color: #141414 !important; }
   navbar:
     - title: Streamliners
       href: https://www.streamliners.com/
