@@ -12,6 +12,12 @@ sites:
     followRedirects: true
     timeout: 30000
     maxRedirects: 5
+  - name: Dot
+    url: https://admin.healthpathwayscommunity.org/
+    icon: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg
+    followRedirects: true
+    timeout: 30000
+    maxRedirects: 5
 
 status-website:
   # Custom domain for HealthPathways status page
@@ -21,11 +27,16 @@ status-website:
   name: HealthPathways System Status
   introTitle: "**HealthPathways System Status**"
   introMessage: Real-time monitoring of Streamliners and HealthPathways services.
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/streamliners-theme.css
   navbar:
     - title: Streamliners
       href: https://www.streamliners.com/
     - title: Hub
       href: https://hub.healthpathwayscommunity.org/
+    - title: Dot
+      href: https://admin.healthpathwayscommunity.org/
 
 # Security: Issues are automatically created for downtime incidents
 # Only repository collaborators can comment on issues

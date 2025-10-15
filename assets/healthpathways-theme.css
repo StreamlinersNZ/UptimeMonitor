@@ -1,0 +1,356 @@
+/* HealthPathways Brand Theme for Upptime Status Page */
+
+/* TODO: Replace these placeholder colors with actual HealthPathways brand colors
+   when the brand guidelines are available */
+
+/* Root variables for easy maintenance - UPDATE THESE WITH ACTUAL BRAND COLORS */
+:root {
+  --healthpathways-primary: #1e3a8a;      /* Placeholder blue - replace with actual primary */
+  --healthpathways-secondary: #3b82f6;     /* Placeholder light blue - replace with actual secondary */
+  --healthpathways-accent: #06b6d4;        /* Placeholder cyan - replace with actual accent */
+  --healthpathways-light: #f8fafc;         /* Placeholder light gray - replace with actual light */
+  --healthpathways-dark: #0f172a;          /* Placeholder dark - replace with actual dark */
+  --healthpathways-text: #1e293b;          /* Placeholder text color - replace with actual text */
+}
+
+/* Main body styling */
+body {
+  background-color: var(--healthpathways-light);
+  color: var(--healthpathways-text);
+  font-family: 'Modern Gothic', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* HealthPathways Typography Hierarchy */
+/* H1 - Season Serif for large headlines */
+h1, .h1 {
+  font-family: 'Season Serif', Georgia, serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--healthpathways-text);
+}
+
+/* H2 - Season Serif for sub headlines */
+h2, .h2 {
+  font-family: 'Season Serif', Georgia, serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 0.875rem;
+  color: var(--healthpathways-text);
+}
+
+/* H3 - Modern Gothic for section headers */
+h3, .h3 {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+  color: var(--healthpathways-text);
+}
+
+/* Body 1 - Modern Gothic for main body text */
+p, .body-1 {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--healthpathways-text);
+}
+
+/* Body 2 - Modern Gothic for smaller body text */
+.small, .body-2 {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--healthpathways-text);
+}
+
+/* Navigation typography */
+.navbar-brand {
+  font-family: 'Season Serif', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Card headers */
+.card-header {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+/* Status text */
+.status-text {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* Button typography */
+.btn {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: none;
+}
+
+/* Table typography */
+.table th {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table td {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+/* Alert typography */
+.alert {
+  font-family: 'Modern Gothic', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
+  
+  h2, .h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3, .h3 {
+    font-size: 1.25rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+}
+
+/* Header and navigation */
+.navbar {
+  background-color: var(--healthpathways-primary) !important;
+  border-bottom: 2px solid var(--healthpathways-secondary);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--healthpathways-accent) !important;
+  background-color: rgba(6, 182, 212, 0.1);
+  border-radius: 4px;
+}
+
+/* Status cards and main content */
+.card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(30, 58, 138, 0.1);
+}
+
+.card-header {
+  background-color: var(--healthpathways-light);
+  border-bottom: 1px solid var(--healthpathways-secondary);
+  color: var(--healthpathways-text);
+  font-weight: 600;
+}
+
+/* Status indicators - KEEP STANDARD COLORS for accessibility */
+.status-up {
+  color: #28a745 !important; /* Keep green for up status */
+}
+
+.status-down {
+  color: #dc3545 !important; /* Keep red for down status */
+}
+
+.status-degraded {
+  color: #ffc107 !important; /* Keep yellow for degraded status */
+}
+
+/* Buttons and interactive elements */
+.btn-primary {
+  background-color: var(--healthpathways-primary);
+  border-color: var(--healthpathways-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+  border-color: #1e40af;
+}
+
+.btn-outline-primary {
+  color: var(--healthpathways-primary);
+  border-color: var(--healthpathways-primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--healthpathways-primary);
+  border-color: var(--healthpathways-primary);
+  color: white;
+}
+
+/* Links */
+a {
+  color: var(--healthpathways-primary);
+}
+
+a:hover {
+  color: var(--healthpathways-secondary);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--healthpathways-light);
+  border-top: 1px solid var(--healthpathways-secondary);
+  color: var(--healthpathways-text);
+}
+
+/* Tables */
+.table {
+  background-color: white;
+}
+
+.table th {
+  background-color: var(--healthpathways-light);
+  color: var(--healthpathways-text);
+  border-color: var(--healthpathways-secondary);
+}
+
+.table td {
+  border-color: #e2e8f0;
+}
+
+/* Incident reports and alerts */
+.alert-info {
+  background-color: rgba(6, 182, 212, 0.1);
+  border-color: var(--healthpathways-accent);
+  color: var(--healthpathways-text);
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-color: #ffc107;
+  color: var(--healthpathways-text);
+}
+
+.alert-danger {
+  background-color: rgba(220, 53, 69, 0.1);
+  border-color: #dc3545;
+  color: var(--healthpathways-text);
+}
+
+/* Response time graphs and charts */
+.chart-container {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--healthpathways-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--healthpathways-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--healthpathways-secondary);
+}
+
+/* Logo and branding area */
+.logo {
+  filter: brightness(0) invert(1); /* Make logo white on dark background */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Focus states for accessibility */
+.btn:focus,
+.nav-link:focus,
+a:focus {
+  outline: 2px solid var(--healthpathways-accent);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .navbar {
+    background-color: white !important;
+    color: var(--healthpathways-text) !important;
+  }
+  
+  .card {
+    border: 1px solid var(--healthpathways-text);
+  }
+}
+
+/* 
+INSTRUCTIONS FOR CUSTOMIZATION:
+
+1. Replace the placeholder colors in the :root section with actual HealthPathways brand colors
+2. Update any hardcoded color values throughout the CSS to match your brand
+3. Adjust the color scheme to match your brand's personality (professional, medical, etc.)
+4. Test the theme on different screen sizes and devices
+5. Ensure sufficient contrast ratios for accessibility compliance
+
+TYPOGRAPHY NOTES:
+- H1 & H2: Season Serif (with Georgia fallback)
+- H3 & Body: Modern Gothic (with Arial fallback)
+- Fonts are loaded with proper fallbacks for web compatibility
+- Typography hierarchy follows HealthPathways brand guidelines
+
+FONT LICENSING:
+- Modern Gothic: Available from All Caps Type
+- Season Serif: Available from Displaay Type
+- Fallbacks: Georgia (serif) and Arial (sans-serif) for system compatibility
+
+Example of how to update colors:
+:root {
+  --healthpathways-primary: #YOUR_PRIMARY_COLOR;
+  --healthpathways-secondary: #YOUR_SECONDARY_COLOR;
+  --healthpathways-accent: #YOUR_ACCENT_COLOR;
+  --healthpathways-light: #YOUR_LIGHT_COLOR;
+  --healthpathways-dark: #YOUR_DARK_COLOR;
+  --healthpathways-text: #YOUR_TEXT_COLOR;
+}
+*/
