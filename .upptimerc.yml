@@ -27,9 +27,17 @@ status-website:
   name: HealthPathways System Status
   introTitle: "**HealthPathways System Status**"
   introMessage: Real-time monitoring of Streamliners and HealthPathways services.
+  description: "Uptime monitoring and status page for Streamliners and HealthPathways services, powered by Upptime."
+  keywords: ["uptime", "monitoring", "status", "healthpathways", "streamliners", "reliability"]
+  author: "Streamliners NZ Ltd"
   links:
     - rel: stylesheet
       href: https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/streamliners-theme.css
+  css: |
+    /* Test inline CSS to verify theme loading */
+    body { background-color: #F8F5F0 !important; }
+    .navbar { background-color: #421B30 !important; }
+    .navbar-brand, .navbar-nav .nav-link { color: white !important; }
   navbar:
     - title: Streamliners
       href: https://www.streamliners.com/
