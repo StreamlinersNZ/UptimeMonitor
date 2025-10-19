@@ -22,7 +22,7 @@
     "url": "https://hub.healthpathwayscommunity.org/",
     "icon": "https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg",
     "slug": "health-pathways-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 504,
     "timeMonth": 528,
     "timeYear": 528,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-10-19": 0
+    }
   },
   {
     "name": "Dot",
