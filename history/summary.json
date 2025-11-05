@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 221,
-    "timeDay": 227,
-    "timeWeek": 261,
-    "timeMonth": 221,
-    "timeYear": 221,
+    "time": 223,
+    "timeDay": 274,
+    "timeWeek": 281,
+    "timeMonth": 223,
+    "timeYear": 223,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://raw.githubusercontent.com/$OWNER/$REPO/HEAD/assets/healthPathways-logo.svg",
     "slug": "health-pathways-hub",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "99.94%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
-    "time": 509,
-    "timeDay": 405,
-    "timeWeek": 509,
-    "timeMonth": 509,
-    "timeYear": 509,
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 510,
+    "timeDay": 571,
+    "timeWeek": 526,
+    "timeMonth": 510,
+    "timeYear": 510,
     "dailyMinutesDown": {
       "2025-10-25": 27
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 957,
-    "timeDay": 1102,
-    "timeWeek": 906,
-    "timeMonth": 957,
-    "timeYear": 957,
+    "time": 956,
+    "timeDay": 946,
+    "timeWeek": 929,
+    "timeMonth": 956,
+    "timeYear": 956,
     "dailyMinutesDown": {}
   }
 ]
